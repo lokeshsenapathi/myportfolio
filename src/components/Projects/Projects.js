@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/todo.png";
-import wiki from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/wikilogo.jpeg";
+import todo from "../../Assets/Projects/todo.jpg";
+import wiki from "../../Assets/Projects/wikilogo.png";
 
 function Projects() {
   return (
@@ -23,7 +19,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={todo}
               isBlog={false}
               title="Todos"
               description="Our Todos app is a versatile and user-friendly task management tool designed to help you stay organized and increase your productivity. With a clean and intuitive interface, you can easily create, track, and manage all your tasks and to-do lists in one place. ."
@@ -34,7 +30,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={wiki}
               isBlog={false}
               title="wikipidia search"
               description="With the Simple Wikipedia Search application, you can enter a search query or a specific topic you're interested in learning about. The application will then retrieve relevant articles from the Simple English Wikipedia database and display them in a clear and concise format."
