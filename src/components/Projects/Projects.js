@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import todo from "../../Assets/Projects/todo.jpg";
 import wiki from "../../Assets/Projects/wikilogo.png";
+import google from "../../Assets/Projects/google.jpeg";
 
 function Projects() {
   return (
@@ -36,6 +37,17 @@ function Projects() {
               description="With the Simple Wikipedia Search application, you can enter a search query or a specific topic you're interested in learning about. The application will then retrieve relevant articles from the Simple English Wikipedia database and display them in a clear and concise format."
               ghLink="https://github.com/lokeshsenapathi/"
               demoLink="https://lokeshsena.ccbp.tech/"
+            />
+          </Col>
+
+             <Col md={4} className="project-card">
+             <ProjectCard
+              imgPath={google}
+              isBlog={false}
+              title="Stock market prediction"
+              description="Our Google Stock Market Prediction project provides users with interactive visualizations, real-time market data updates, and personalized recommendations based on their investment preferences. It serves as a powerful tool for investors, financial analysts, and traders."
+              ghLink="https://github.com/lokeshsenapathi/googlestock-market-prediction-"
+              
             />
           </Col>
 
