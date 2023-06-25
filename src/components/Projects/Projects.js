@@ -32,6 +32,17 @@ function Projects() {
             />
           </Col>
 
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={}
+              isBlog={false}
+              title="wikipidia search"
+              description="With the Simple Wikipedia Search application, you can enter a search query or a specific topic you're interested in learning about. The application will then retrieve relevant articles from the Simple English Wikipedia database and display them in a clear and concise format."
+              ghLink="https://github.com/lokeshsenapathi/"
+              demoLink="https://lokeshsena.ccbp.tech/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
