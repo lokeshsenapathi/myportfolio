@@ -55,8 +55,7 @@ function Projects() {
              <ProjectCard
               imgPath={google}
               isBlog={false}
-              title="Detecting retinal diseases through Optical Coherence Tomography (OCT) images using Deep 
-               Neural Networks"
+              title="Detecting retinal diseases through Optical Coherence Tomography (OCT) images using Deep Neural Networks"
               description="OCTstands for Optical Coherence Tomography. It is a non-invasive imaging technique used in medical diagnostics to produce high-resolution cross-sectional images of biological tissues. In OCT imaging, low-coherence light is directed onto the tissue, and the reflected light is analyzed to construct detailed images of the internal structure of the tissue. This technique is widely used in ophthalmology for imaging the retina and diagnosing various eye conditions, including macular degeneration, diabetic retinopathy, and glaucoma."
               ghLink="https://github.com/lokeshsenapathi/project-leo/tree/master"
               demolink="https://mtech-pro-gen-ai-oct.streamlit.app/"
