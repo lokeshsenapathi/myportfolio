@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import todo from "../../Assets/Projects/todo.jpg";
 import wiki from "../../Assets/Projects/wikilogo.png";
-import google from "../../Assets/Projects/google.jpg";
+import google from "../../Assets/Projects/oct.avif";
 
 function Projects() {
   return (
